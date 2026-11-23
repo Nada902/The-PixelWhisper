@@ -1,0 +1,220 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*box-sizing property allows us to include the padding and border in an element's total width and height.-- search in w3schools*/
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e3e3; 
+    
+}
+
+header {
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+   text-align:center;
+    padding: 100px 0;
+    display: inline-block;
+    width: 100%;
+   background: linear-gradient(45deg, #002b36, #586e75);
+}
+header div {
+    letter-spacing: 7px;
+}
+
+header div p span {
+    font-size: 60px;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'VT323', monospace;
+}
+.lg-name {
+    position: relative;
+    font-size: 50px;
+    line-height: 60px;
+    padding: 20px 10px 0 10px;
+    color: #fdf6e3;
+}
+.lg-under
+{
+    font-weight: 700;
+    color: #ff6f69;
+    padding: 0 32px 0 32px;
+}
+
+    .lg-under:hover {
+        padding:0 20px 0 20px;
+        letter-spacing: 10px;
+    }
+nav {
+   
+    display: block;
+    margin-top: 30px;
+    padding: 10px 0 0 0;
+    width: 100%;
+}
+.header-nav-list {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 3.6875rem;
+    max-width: 75.375rem;
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    font-weight: 700;
+}
+ a {
+    text-decoration: none;
+    color: #fff5ee; 
+}
+
+header nav a:hover {
+    padding:10px;
+    background-color: #fff5ee; 
+    color: #0e1111; 
+}
+
+    .section1 {
+
+        display: flex;
+        height:fit-content;
+        margin: 50px 80px 10px 80px;
+        justify-content: center;
+         padding: 20px;
+    }
+
+.intro {
+    display: block;
+    text-align: justify;
+    float: right;
+    letter-spacing: 1px;
+    line-height: 25px;
+    box-shadow: 10px 20px 10px #424242;
+    border-radius: 100px 30px 30px 100px;
+    padding: 100px;
+    margin: 20px 20px 100px 40px;
+    background-color: #fff5ee;
+}
+.intro span {
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+.intro1 {
+    text-align: center;
+    display: block;
+    float: right;
+    width:max-content;
+    box-shadow: 10px 20px 10px #424242;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px 20px 100px 20px;
+    background-color: #fff5ee;
+}
+
+    main h1 {
+        display: block;
+        text-align: center;
+        font-family: 'VT323', monospace;
+        font-size: 40px;
+        line-height: 2.625rem;
+        font-weight: 400;
+    }
+
+    .section2 {
+        display: block;
+        margin-top: 10px;
+        padding: 10px
+    }
+
+    .labelS2 {
+        display: block;
+        padding: 7px 7px 7px 7px;
+        font-family: "Libre Baskerville",Verdana,Arial,sans-serif;
+        font-size: 30px;
+        margin-bottom: 60px;
+        text-align: center;
+
+    }
+
+    .flexcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-img {
+        width: 170px;
+        border-radius: 30px;
+        margin: 0;
+    }
+
+    .card {
+        align-content: center;
+        width: fit-content;
+        margin: 15px;
+        border-radius: 20px;
+    }
+
+        .card:hover {
+            margin: 8px;
+        }
+
+    .styleSec {
+        border-style: solid;
+        border-width: 0;
+        border-color: #003030;
+        box-shadow: -10px -10px 20px #003030;
+        border-radius: 20px;
+        margin: 80px;
+        background-color: #fff5ee;
+    }
+
+    .styleSec1 {
+        border-style: solid;
+        border-width: 0;
+        border-color: #003030;
+        box-shadow: -10px -10px 20px #003030;
+        border-radius: 20px;
+        margin: 80px;
+        padding: 30px;
+        font-size: 20px;
+        color: #3b444b;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #fff5ee;
+    }
+
+    .star {
+        font-family: 'VT323', monospace;
+        font-size: 30px;
+        color: black;
+    }
+
+    footer {
+        font-family: 'Playfair Display SC', serif;
+        background-color: #586e75;
+        width: 100%;
+        border-style: solid;
+        border-width: thin;
+        border-color: #19543a;
+    }
+
+    #icon1 {
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+
+    .icon2 {
+        flex-direction: row-reverse;
+        float: right;
+        height: 50px;
+    }
+
+    .copyright {
+        text-align: end;
+    }
